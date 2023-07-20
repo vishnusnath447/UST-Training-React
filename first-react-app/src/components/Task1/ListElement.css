@@ -1,0 +1,17 @@
+ul{
+  margin-left: 30px;
+  color: white;
+  width: 70%;
+}
+
+li{
+  font-weight: 400;
+  font-size: 1.2rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+li::marker{
+  color: aqua;
+  font-size: 2rem;
+}

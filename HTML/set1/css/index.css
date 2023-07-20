@@ -1,0 +1,48 @@
+#container{
+    display: flex;
+}
+
+#topicList{
+    display: grid;
+    justify-items: center;
+    background-color: aquamarine;
+}
+h1{
+    color: slateblue;
+}
+
+h2{
+    color: slateblue;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ol{
+    list-style: none;
+    display: grid;
+    justify-items: center;
+}
+
+section{
+    display: grid;
+    justify-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+header{
+    background-color: white;
+    height: fit-content;
+    width: 20rem;
+    position: fixed;
+}

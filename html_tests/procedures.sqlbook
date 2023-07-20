@@ -1,0 +1,24 @@
+-- SQLBook: Code
+use test;
+-- SQLBook: Code
+DELIMITER $$
+CREATE Procedure Get_Author_Details()
+BEGIN
+    SELECT * FROM authors;
+END$$
+DELIMITER ;
+
+
+
+DELIMITER $$
+CREATE Procedure Get_Author_and_Book_Details()
+BEGIN
+    SELECT a.author_id,a.author_name,b.book_title
+    from author a,book b
+    WHERE a.author_id=b.author_id;
+END$$
+DELIMITER ;
+-- SQLBook: Code
+CALL Get_Author_Details();
+
+CALL Get_Author_and_Book_Details();

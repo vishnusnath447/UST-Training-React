@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    height: 80vh;
+    border: 5px solid white;
+}
+
+.lower-body{
+    display: flex;
+    height: 100%;
+    /* justify-content: center; */
+    /* align-items: stretch; */
+    background-color: #282c35;
+}

@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap');
+
+*,
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+.upper-div{
+    position: relative;
+    height: 65%;
+    width: 100%;
+    display: flex;
+}
+
+.upper-left{
+    height: 100%;
+    width: 60%;
+}
+
+.upper-left img{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.upper-left .heading-img{
+    position: absolute;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+.upper-left .nav-bar{
+    position: absolute;
+    margin-top: 3rem;
+    margin-left: 9rem;
+}
+
+
+.nav-bar a{
+    color: white;
+    text-decoration: none;
+    padding: 0 1rem;
+    font-weight: 500;
+}
+
+.nav-bar a:hover{
+    text-decoration: underline 2px;
+    text-underline-offset: 10px;
+}
+
+.upper-right{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-container{
+    width: 80%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-container .heading p{
+    font-size: 2.5rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.text-container .paragraph p{
+    padding: 1rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    color: hsl(0, 0%, 63%);
+}
+
+.text-container .link{
+    margin-top: 1rem;
+    width: 100%;
+    text-align: left;
+}
+
+.text-container .link a{
+    padding: 1rem;
+    text-decoration: none;
+    color:#000;
+    letter-spacing: 15px;
+}
+
+.slider-buttons{
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    height: 15%;
+}
+
+.slider-buttons button{
+    height: 100%;
+    width: 4.5rem;
+    border: none;
+    background-color: black;
+}
+
+.slider-buttons button:hover{
+    background-color: hsl(0, 0%, 27%)
+}
+
+.lower-div{
+    height: 35%;
+    width: 100%;
+    display: flex;
+}
+
+.lower-left{
+    height: 100%;
+    width: 30%;
+}
+
+.lower-left img{
+    height: 100%;
+    width: 100%;
+}
+
+.lower-middle{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid #ccc;
+}
+
+.lower-middle .heading{
+    width: 90%;
+}
+
+.lower-middle .paragraph{
+    width: 90%;
+}
+
+.lower-middle .heading p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 1rem;
+    letter-spacing: 8px;
+}
+
+.lower-middle .paragraph p{
+    font-weight: 500;
+    color: hsl(0, 0%, 63%);
+    line-height: 1.3rem;
+    margin-top: 1rem;
+}
+
+.lower-right{
+    height: 100%;
+    width:30%;
+}
+
+.lower-right img{
+    height: 100%;
+    width: 100%;
+}

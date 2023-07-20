@@ -1,0 +1,16 @@
+h1{
+    font-size: 3rem;
+    color: white;
+    padding-left: 25px;
+}
+
+.bg-img{
+    position: absolute;
+    clip: rect(0px, 305px, 400px, 120px);
+    left:47.5rem;
+    top: 16rem;
+    width: 40%;
+    height: 40%;
+    filter: grayscale(100%);
+    opacity: 20%;
+}

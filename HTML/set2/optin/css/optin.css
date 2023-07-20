@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*,
+html{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(65,73,91);
+}
+
+body{
+    background-image: url(/set2/optin/image/optinmonster-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 12.5rem;
+    height: auto;
+}
+
+.heading,.para{
+    padding-block: 1rem;
+}
+
+button{
+    border: none;
+    padding: .7rem 2rem;
+    color: white;
+    background-color: rgb(131,193,31);
+    border-radius: .2rem;
+}
+
+.container{
+    width: 55vw;
+}
+
+.heading p{
+    line-height: 35px;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.para p{
+    font-size: 10px;
+}

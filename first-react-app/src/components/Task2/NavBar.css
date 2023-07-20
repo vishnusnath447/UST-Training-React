@@ -1,0 +1,34 @@
+.navbar{
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f55a5a;
+}
+
+.nav-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-nav{
+    width: 5%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.para{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    padding-top: 7%;
+}
+.image-nav img{
+    padding-right: 10px;
+    width:auto;
+    height: 40%;
+}

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam&display=swap');
+@import url(variables.css);
+*,
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(198, 219, 238);
+    font-family: 'Noto Sans Malayalam', sans-serif;
+}
+
+.w-400{
+    font-weight: 400;
+}
+
+.w-700{
+    font-weight: 700;
+}
+
+.f-main-heading{
+    color: var(--Cyan);
+    padding-bottom: 0.5rem;
+}
+
+.f-sub-heading{
+    color: var(--Bright-Yellow);
+    padding-block: 0.5rem;
+}
+
+.f-content{
+    color: var(--Grayish-Blue);
+}
+
+.container-box{
+    box-shadow: 0 -0.5em 0.5em rgba(0, 0, 0, 0.1),
+    0 0.5em 0.5em rgba(0, 0, 0, 0.1);
+    border-radius: .6rem;
+    width: 50vw;
+    min-height: 62vh;
+    max-height: 62vh;
+}
+
+.first-half{
+    background-color: white;
+    border-top-left-radius: .6rem;
+    border-top-right-radius: .6rem;
+    padding-block:4rem;
+    padding-left: 2rem;
+    min-height: 31vh;
+    max-height: 31vh;
+}
+
+.second-half{
+    background-color: var(--Cyan);
+    min-height: 31vh;
+    max-height: 31vh;
+    border-bottom-left-radius: .6rem;
+    border-bottom-right-radius: .6rem;
+}
+
+.left{
+    width: 50%;
+    float: left;
+    /* background-color: var(--Cyan); */
+    padding: 2rem;
+    border-bottom-left-radius: .6rem;
+    height: max-content;
+    min-height: 31vh;
+    max-height: 31vh;
+}
+
+.right{
+    padding: 2rem;
+    background-color: var(--Cyan-Secondry);
+    width: 50%;
+    float: right;
+    border-bottom-right-radius: .6rem;
+    min-height: 31vh;
+    max-height: 31vh;
+}
+
+a{
+    text-decoration: none;
+    color: var(--Light-Gray);
+}
+
+button{
+    width: 225px;
+    padding: .6rem 2rem;
+    border-radius: .3rem;
+    background-color: var(--Bright-Yellow);
+    border-style: none;
+    margin: 2rem;
+}
+
+.left-title{
+    color: white;
+    padding-block: 1rem;
+}
+
+.amount{
+    color: white;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+
+.left-para{
+    color: var(--Light-Gray);
+    display: inline-block;
+}
+
+.left-content{
+    color: white;
+    padding-top: 0.3rem;
+}
+
+.right h2{
+    color: white;
+    padding-block: 1rem;
+}
+
+.right p{
+    color: var(--Light-Gray);
+    font-weight: 400;
+    font-size: 15px;
+}

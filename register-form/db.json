@@ -1,0 +1,16 @@
+{
+  "user": [
+    {
+      "fullName": "Vishnu S Nath",
+      "email": "vishnusnath447@gmail.com",
+      "password": "2000",
+      "id": 1
+    },
+    {
+      "fullName": "Jeevamol Seby",
+      "email": "jeevamolseby@gmail.com",
+      "password": "2000",
+      "id": 2
+    }
+  ]
+}

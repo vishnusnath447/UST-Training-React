@@ -1,0 +1,15 @@
+use("demo");
+
+db.users.insertOne(
+    {
+        name:"Vishnu",
+        email:"vishnu@gmail.com",
+        address:{
+            street:"HMCA",
+            city:"Kochi",
+            state:"Kerala"
+        }
+    }
+);
+
+db.users.find();

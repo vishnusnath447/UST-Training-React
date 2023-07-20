@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('variables.css');
+
+*,
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+.learn-to-code{
+    height: 90vh;
+    background-color: var(--background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn-to-code1 > h1{
+    color: aliceblue;
+    font-weight: 900;
+    font-size: 5rem;
+    padding: 2rem 0;
+}
+
+.learn-to-code1 > p{
+    color: rgb(141, 208, 196);
+    font-size: 1.5rem;
+}
+
+.click-me{
+    margin-top: 2rem;;
+}
+
+.click{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+
+.click:hover{
+    color: rgb(141, 208, 196);
+    font-size: 1.6rem;
+}
+
+.h-50vh{
+    height: 50vh;
+}
+
+.html-section{
+    background-color: rgb(143, 238, 206);
+}
+
+.left{
+    width: 50%;
+    float: left;
+    padding: 2rem;
+}
+
+.right{
+    width: 50%;
+    float: right;
+    padding: 2rem;
+}
+
+.text-black{
+    color: var(--background);
+}
+
+.heading-left{
+    font-size: 2rem;
+    font-weight: 900;
+}

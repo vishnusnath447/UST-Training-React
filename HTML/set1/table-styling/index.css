@@ -1,0 +1,56 @@
+*,
+html{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+th,td{
+    padding: .3em;
+}
+
+tbody tr:nth-child(odd){
+    background-color: rgb(238,238,238)
+}
+
+table thead th:nth-child(1){
+    text-align: left;
+}
+
+table thead th:nth-child(2){
+    text-align: right;
+}
+
+table thead th:nth-child(3){
+    text-align: right;
+}
+
+table thead th:nth-child(4){
+    text-align: left;
+}
+
+table tbody th:nth-child(1){
+    text-align: left;
+}
+
+table tbody td:nth-child(2){
+    text-align: right;
+}
+
+table tbody td:nth-child(3){
+    text-align: right;
+}
+
+table tbody td:nth-child(4){
+    text-align: left;
+}
+
+table{
+    border-block: 1px solid #999;
+}

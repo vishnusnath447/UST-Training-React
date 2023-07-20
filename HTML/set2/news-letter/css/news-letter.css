@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*,
+html{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.container{
+    background-color: rgb(242,242,242);
+    width: 36vw;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.heading{
+    text-align: center;
+}
+
+.forms{
+    padding-top: 2rem;
+}
+
+.form-group label,input{
+    margin-block: .4rem;
+}
+
+.form-group input, select{
+    width:100%;
+    padding-block: .55rem;
+    border-style: none ;
+    border-bottom: 3px solid rgb(255,99,71);
+}
+
+.submit-button{
+    margin-top: .5rem;
+}
+
+button{
+    padding: .55rem 1.2rem;
+    border: none;
+    color: white;
+    background-color: rgb(255,99,71);
+    font-weight: 500;
+}
